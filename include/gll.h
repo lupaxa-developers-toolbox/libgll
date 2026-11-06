@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 
-#define GLL_VERSION_STRING "0.1.0-rc1"
+#define GLL_VERSION_STRING "0.1.0"
 
 /* GLL_OK is success. GLL_NOMEM means allocation failed and the list was
    left unchanged, except gll_create which sets *list to NULL. GLL_INVAL
