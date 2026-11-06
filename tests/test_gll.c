@@ -1,4 +1,5 @@
-#include "gll.h"
+/* Quoted path so a syntax check without -I still finds the public header. */
+#include "../include/gll.h"
 
 #include <stdio.h>
 #include <stdlib.h>

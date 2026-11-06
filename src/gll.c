@@ -2,7 +2,8 @@
    The public contract is in include/gll.h. This file holds the list and
    node layout and the function bodies. */
 
-#include "gll.h"
+/* Quoted path so a syntax check without -I still finds the public header. */
+#include "../include/gll.h"
 
 #include <stdlib.h>
 
